@@ -1,0 +1,22 @@
+{
+    "name": "Wiktor/Scraper",
+    "description": "Scrap data from page",
+    "require": {
+        "goodby/csv": "~1.2",
+        "symfony/dom-crawler": "~2.6",
+        "symfony/css-selector": "~2.6"
+    },
+    "authors": [
+        {
+            "name": "Wiktor Bien",
+            "email": "wiktorbien@interia.pl"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Wiktor\\Scraper":"src/"
+        }
+    }
+
+
+}
